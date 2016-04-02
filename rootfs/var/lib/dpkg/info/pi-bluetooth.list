@@ -1,0 +1,11 @@
+/.
+/lib
+/lib/systemd
+/lib/systemd/system
+/lib/systemd/system/hciuart.service
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/pi-bluetooth
+/usr/share/doc/pi-bluetooth/copyright
+/usr/share/doc/pi-bluetooth/changelog.gz

@@ -1,0 +1,12 @@
+1cb2b34c7f20b61908daf781383e2296  usr/bin/gencat
+04791c9bc5684917e8ea52bcf012fe82  usr/bin/mtrace
+5445d5482780de143928d77d78e0bc6b  usr/bin/rpcgen
+19f4686f74f7849eacb794c852b5fd3d  usr/bin/sotruss
+34a83dd8f2a9bd33b62466d00de8eb5d  usr/bin/sprof
+039375bfcf309152873e7e547d1e1031  usr/share/doc/libc-dev-bin/NAMESPACE
+4f58432ee08356be132a116be92386a8  usr/share/doc/libc-dev-bin/changelog.Debian.gz
+85a219f31bac5c3da91cac1e72f6f54f  usr/share/doc/libc-dev-bin/changelog.gz
+d525c5318d6db2ae2d7b5c357e521a7d  usr/share/doc/libc-dev-bin/copyright
+19548a7cc153f6e3e6b04e968268b497  usr/share/man/man1/gencat.1.gz
+a1a34953150a51126c79e4b5970192be  usr/share/man/man1/rpcgen.1.gz
+5bcb4efe618ed89d610edcd6c26aa159  usr/share/man/man1/sotruss.1.gz

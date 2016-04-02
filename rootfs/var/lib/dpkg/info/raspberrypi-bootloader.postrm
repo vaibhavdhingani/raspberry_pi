@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installmodules
+if [ -e /boot/System.map-4.1.19+ ]; then
+	depmod -a -F /boot/System.map-4.1.19+ 4.1.19+ || true
+fi
+# End automatically added section
+# Automatically added by dh_installmodules
+if [ -e /boot/System.map-4.1.19-v7+ ]; then
+	depmod -a -F /boot/System.map-4.1.19-v7+ 4.1.19-v7+ || true
+fi
+# End automatically added section

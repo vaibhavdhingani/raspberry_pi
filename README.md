@@ -15,3 +15,9 @@ $ git push -u origin master
 =====================================================
 $ git remote add origin https://github.com/vaibhavdhingani/raspberry_pi.git
 $ git push -u origin master
+
+
+=======================
+RPI Kernel Zip Extract:
+=======================
+7z x linux-rpi-#.##.y

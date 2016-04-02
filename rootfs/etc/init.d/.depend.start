@@ -1,0 +1,12 @@
+TARGETS = triggerhappy dhcpcd rsyslog bootlogs killprocs motd regenerate_ssh_host_keys apply_noobs_os_config dbus single cron ntp dphys-swapfile avahi-daemon bluetooth plymouth rc.local rmnologin
+INTERACTIVE =
+dbus: rsyslog
+single: killprocs bootlogs motd
+cron: rsyslog
+ntp: rsyslog
+dphys-swapfile: rsyslog
+avahi-daemon: dbus rsyslog
+bluetooth: rsyslog dbus
+plymouth: triggerhappy dhcpcd avahi-daemon dbus rsyslog bluetooth bootlogs motd cron ntp regenerate_ssh_host_keys dphys-swapfile apply_noobs_os_config
+rc.local: triggerhappy dhcpcd avahi-daemon dbus rsyslog bluetooth bootlogs motd cron ntp regenerate_ssh_host_keys dphys-swapfile apply_noobs_os_config
+rmnologin: triggerhappy dhcpcd avahi-daemon dbus rsyslog bluetooth bootlogs motd cron ntp regenerate_ssh_host_keys dphys-swapfile apply_noobs_os_config

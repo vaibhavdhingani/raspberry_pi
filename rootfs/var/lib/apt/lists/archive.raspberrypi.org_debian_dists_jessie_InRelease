@@ -1,0 +1,181 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Raspberry Pi Foundation
+Label: Raspberry Pi Foundation
+Suite: stable
+Codename: jessie
+Date: Wed, 16 Mar 2016 10:52:12 UTC
+Architectures: armhf
+Components: main ui staging untested
+Description: Packages for the Raspberry Pi
+MD5Sum:
+ 4e0421be95b6c3257be4e84a2c8db7f9 710130 main/binary-armhf/Packages
+ 3a96ef4476573737bd9d23f4a01c41a5 143231 main/binary-armhf/Packages.gz
+ 7fb527eb181caa7005b9d8068d20115a 158 main/binary-armhf/Release
+ a7d9f57b65dd4969b0bae41e18d98938 7609 main/debian-installer/binary-armhf/Packages
+ 2eb1bf4148bfada57315c13b3c5dc76f 2628 main/debian-installer/binary-armhf/Packages.gz
+ 5e487b8207cbf703d48b33a547c1fd39 181908 main/source/Sources
+ e8b095b16d9c49ec5aec4e5082e8abf3 48814 main/source/Sources.gz
+ baded860a0d6d4f9ffe08be10a24c220 159 main/source/Release
+ 8e45768647d6dc5717ee7a87f1494d73 29524 ui/binary-armhf/Packages
+ dbde29fa51fb7627c146fe1b2a21c129 7639 ui/binary-armhf/Packages.gz
+ a09385cbcb759e117b0cd9171bacc326 156 ui/binary-armhf/Release
+ c7a50de8ca13676b461edddea3933540 1522 ui/debian-installer/binary-armhf/Packages
+ 85523aa5fa924c5216264c5262b2f30c 837 ui/debian-installer/binary-armhf/Packages.gz
+ e654995141ee8c780d96bd3eaeb42d23 15842 ui/source/Sources
+ b64e28191806b3546fec67fda3b426fa 5197 ui/source/Sources.gz
+ 696379aa5dab0aaf63886afd17eb1e25 157 ui/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 staging/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 staging/binary-armhf/Packages.gz
+ 1944ffcba8093227e942fe122ab96f0c 161 staging/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 staging/debian-installer/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 staging/debian-installer/binary-armhf/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 staging/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 staging/source/Sources.gz
+ f6f5af0768ec8de501b27d5300647ba0 162 staging/source/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 untested/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 untested/binary-armhf/Packages.gz
+ 2ad4ae7bcff74d003b32412e3e80b625 162 untested/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 untested/debian-installer/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 untested/debian-installer/binary-armhf/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 untested/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 untested/source/Sources.gz
+ 2d0173117a31ae93b83f2b40771e2426 163 untested/source/Release
+ b17746a4e71960da82302ebf6a1208e6 9803649 main/Contents-armhf
+ 396102d13f47b4b4c9328cb57762b3b8 561898 main/Contents-armhf.gz
+ c55c83aff56f9d2154779b596151807f 68083 ui/Contents-armhf
+ b69aff60c51a5025bf42a555e0422176 6284 ui/Contents-armhf.gz
+ 27d58e50709d18eb98859c77cca82b90 65 staging/Contents-armhf
+ 1fd31403618fd8b765b0738230f5a085 36 staging/Contents-armhf.gz
+ 27d58e50709d18eb98859c77cca82b90 65 untested/Contents-armhf
+ 1fd31403618fd8b765b0738230f5a085 36 untested/Contents-armhf.gz
+ 489717751f95b0869d51c5150ba7bf78 9848340 Contents-armhf
+ bb5d2fa71ec9a539a25f7e1cdc4d6f01 565635 Contents-armhf.gz
+ 1af12bc07c3fe42809c6aacc76bdfbf7 8022 main/Contents-udeb-armhf
+ 60529e73640f48c8ff9cc5e5a3869c73 907 main/Contents-udeb-armhf.gz
+ c75f9ba94df86450115a3cc76e0965cb 1222 ui/Contents-udeb-armhf
+ 9677db620ae944794c646d499274ffe6 205 ui/Contents-udeb-armhf.gz
+ 27d58e50709d18eb98859c77cca82b90 65 staging/Contents-udeb-armhf
+ 1fd31403618fd8b765b0738230f5a085 36 staging/Contents-udeb-armhf.gz
+ 27d58e50709d18eb98859c77cca82b90 65 untested/Contents-udeb-armhf
+ 1fd31403618fd8b765b0738230f5a085 36 untested/Contents-udeb-armhf.gz
+ 79d1745d5895b2be71a8616f44b64c62 9179 uContents-armhf
+ 01559817bb013dc1f61f7feb6e8e37ca 1014 uContents-armhf.gz
+SHA1:
+ 5a15639c1da40da24ca05e446713b7ee1d60ddba 710130 main/binary-armhf/Packages
+ 4c676cb3ed9f4d76d4255b3919a5b9015c08bec2 143231 main/binary-armhf/Packages.gz
+ 754e99df0163ca2cc78c3297bf17fe9bdfdbad32 158 main/binary-armhf/Release
+ cf2d4c7ff0f5ebaa1a46d487201a7c522de28247 7609 main/debian-installer/binary-armhf/Packages
+ ece821ac03caf2a2699add483fa70cfc60f9b23a 2628 main/debian-installer/binary-armhf/Packages.gz
+ d2ce347e90f04dfe70f7179d8625d5eb6cadc255 181908 main/source/Sources
+ 4c904bcb09f61504e59615392f05ac91138cfefc 48814 main/source/Sources.gz
+ 9816b8a3764c4dbd90a16a454c40992cfa23bdcf 159 main/source/Release
+ 0bf5b7bf94b9fb1f3460f1dc7c54f25825898f15 29524 ui/binary-armhf/Packages
+ 11ae00d6a346bf5cae138e8e289e4fc9a8ab9c03 7639 ui/binary-armhf/Packages.gz
+ 12f572f61bcc9ee9af70b85d837bbe52bc006a5e 156 ui/binary-armhf/Release
+ 36d3e46594b08a8a1fd1f1b9fbd412e445dfcfc5 1522 ui/debian-installer/binary-armhf/Packages
+ 73f2f85e9cd9320c2b3df5e449489b9453754816 837 ui/debian-installer/binary-armhf/Packages.gz
+ fbb73debbde37d46fb8733fa18d78a7891b2e8c5 15842 ui/source/Sources
+ fbeccb2d2673d29675bd26683bc5fe7444108fd6 5197 ui/source/Sources.gz
+ 573a6930ca8026238605f96e244a7c8222b05a98 157 ui/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 staging/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 staging/binary-armhf/Packages.gz
+ 0315b5e60d27135dffd0451a7457cfa8af17fa77 161 staging/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 staging/debian-installer/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 staging/debian-installer/binary-armhf/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 staging/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 staging/source/Sources.gz
+ 1ee747393f09e1c6c3b1c7d6835d676436500203 162 staging/source/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 untested/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 untested/binary-armhf/Packages.gz
+ 4eca6eedd07c98ac0244eb27a76bcd8752710785 162 untested/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 untested/debian-installer/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 untested/debian-installer/binary-armhf/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 untested/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 untested/source/Sources.gz
+ 7884bad608815998763d01a5332863906059a852 163 untested/source/Release
+ d359b5175ed93184cae4b26051fb98bc8e33480e 9803649 main/Contents-armhf
+ 3dd0dcd1480482876b5c5820ef4d0b1f05b6e9e4 561898 main/Contents-armhf.gz
+ 12bbd04ff4bbdc57f4bafb9036286d7fee3bf9ed 68083 ui/Contents-armhf
+ 00f7772f64c288a09e3f09a18ea4bc861940804c 6284 ui/Contents-armhf.gz
+ fae4412e63f2f45c1e651dbd256890008330cf4b 65 staging/Contents-armhf
+ 971e263d7f444314afabcbf4a73376a4dba3b2e5 36 staging/Contents-armhf.gz
+ fae4412e63f2f45c1e651dbd256890008330cf4b 65 untested/Contents-armhf
+ 971e263d7f444314afabcbf4a73376a4dba3b2e5 36 untested/Contents-armhf.gz
+ 88ffc1429d4502bfa465bbbd9bf0116be1797c2e 9848340 Contents-armhf
+ 0d1432e809f5d85b2028672589dcfeda8578a5f8 565635 Contents-armhf.gz
+ 0363a3612e179ec0a714714275a9ffd1262f7a69 8022 main/Contents-udeb-armhf
+ e584ae09206b51277ad2dadf715cf3d09b90a40e 907 main/Contents-udeb-armhf.gz
+ 42b042479a6aed59a4992ea640b63ca8324a2aeb 1222 ui/Contents-udeb-armhf
+ 03f7d4ff1f530a0be707c61949ed71ff315f0bbe 205 ui/Contents-udeb-armhf.gz
+ fae4412e63f2f45c1e651dbd256890008330cf4b 65 staging/Contents-udeb-armhf
+ 971e263d7f444314afabcbf4a73376a4dba3b2e5 36 staging/Contents-udeb-armhf.gz
+ fae4412e63f2f45c1e651dbd256890008330cf4b 65 untested/Contents-udeb-armhf
+ 971e263d7f444314afabcbf4a73376a4dba3b2e5 36 untested/Contents-udeb-armhf.gz
+ 1c22554fd586455a462714d6429cbca8128d6b96 9179 uContents-armhf
+ 6cf50c1d61cd7cc8fcec453f1b587f58b82da7d2 1014 uContents-armhf.gz
+SHA256:
+ 9486ab5ee5de1742a5941ebc209f44426099508a407a2a21039de0650fbbf3f3 710130 main/binary-armhf/Packages
+ 14b43919e98361e092c36718f505ffd15208db94e13b496c50cb1af8e63fcc56 143231 main/binary-armhf/Packages.gz
+ 19968c8eebd1e19b3161f9ad187952b77e1671e254c6f8f64520442ad0290ec5 158 main/binary-armhf/Release
+ f89ef7c61910cc10e0092078160307d3a6777643ea80ed5a863b1e1ce8cf17e2 7609 main/debian-installer/binary-armhf/Packages
+ e724d583348310257a93a5c232a31677eee44f608fe0e7685085101927130ebb 2628 main/debian-installer/binary-armhf/Packages.gz
+ e0f77051182685199a6da73714301015476503c0c4bc28f71dcbd871bad60f5b 181908 main/source/Sources
+ 08b5d039bdfa2e745c8bb8b4f436e34e48f716fdd92567e30f377f2d1aea3d3b 48814 main/source/Sources.gz
+ 143c1bb087ed801a22fb06a6afbf8fcc0314f0118c04503bebb9bd8033a0cbab 159 main/source/Release
+ 6a7617adfb6b1e9940284a540fa5ccff4e111138b8ce4b5ff0a65b9f6c2008a9 29524 ui/binary-armhf/Packages
+ 66353a9b89b275a06eb51b076552b40a5aea7eec6cf4495acb6bdfd0fc547617 7639 ui/binary-armhf/Packages.gz
+ a72a9ff21b40554ca50240ede5a2644e07326044090b0ad401ada95aa13470b5 156 ui/binary-armhf/Release
+ d7bf8cb44c76ee1681a04eb4c15a9929268a5dcf239bae67612d271a9ca817fb 1522 ui/debian-installer/binary-armhf/Packages
+ 00d8d66d78fd1bebda5abb1beb1147eb6a69bdbd12bc2c9a56a83cc87eb7c524 837 ui/debian-installer/binary-armhf/Packages.gz
+ 12ea767ff99e825d825baf8415576c43c8f7076553181ef86e37d6a8c709ce13 15842 ui/source/Sources
+ 36224347e9804506cc11be02401e25d2bd2ca25792a72af5176206d69698800b 5197 ui/source/Sources.gz
+ 07b68da7e933b7a926977f230f362947d95578d0499e4f7f1f779216a4f9a3e5 157 ui/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 staging/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 staging/binary-armhf/Packages.gz
+ cb5196752566d033c7c069aa2ac338b32b184412c38c038db0d3800bfa2ee5f5 161 staging/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 staging/debian-installer/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 staging/debian-installer/binary-armhf/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 staging/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 staging/source/Sources.gz
+ 86e81227f88d36cf89681c0e225e42f43219ddb40245cc4b41930315a09170c2 162 staging/source/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 untested/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 untested/binary-armhf/Packages.gz
+ 7444ee42885dc7857ded8f245096821c6f78af6bda3fab619c32f13cac018ac8 162 untested/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 untested/debian-installer/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 untested/debian-installer/binary-armhf/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 untested/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 untested/source/Sources.gz
+ 59e64a4fd7b7112ae6fc659af5e80bb5e3f24efd277f96cc82c7e137de2bb738 163 untested/source/Release
+ ea304427302adcccd37f8d0ef33ed34ea43227ada67719d92bb825923cfdc014 9803649 main/Contents-armhf
+ 0760fd3ad5c4f08c7147c75b45402ae9e519270765706152f28e724500c9e6ee 561898 main/Contents-armhf.gz
+ ceae148f02c0420a469607c4749091fd194ac38e646d97b94a37f7b302581d5a 68083 ui/Contents-armhf
+ 3419c3fcacadb92e113737d558b152c6a464c057714b712c6344fca56bfba9b3 6284 ui/Contents-armhf.gz
+ cf13e85fc3cdf7bc0182ba23034b735b2544edbc0074dcbe617974164ae3be9f 65 staging/Contents-armhf
+ 44818733e04c03289b19184fc4f4d7cd61e9496fd94bc254744cd5c7d10c2ab6 36 staging/Contents-armhf.gz
+ cf13e85fc3cdf7bc0182ba23034b735b2544edbc0074dcbe617974164ae3be9f 65 untested/Contents-armhf
+ 44818733e04c03289b19184fc4f4d7cd61e9496fd94bc254744cd5c7d10c2ab6 36 untested/Contents-armhf.gz
+ dc0ef436792e2a8da82585903dc15e6cbd23cc9b6492d7c07d355b76c72f9caa 9848340 Contents-armhf
+ eafb4884e4d95b34189e89f250d2e523b49ef7a2d789341e697493aab1f581d1 565635 Contents-armhf.gz
+ f815ea1d6963ca52f562dc72543f04d4099243f100bdb7fcd59614f961691a98 8022 main/Contents-udeb-armhf
+ 4890b163cdd8f15956b9200420f7b4690d71b256be6b7a4cb26a7ab74569c7d7 907 main/Contents-udeb-armhf.gz
+ 0d9ae28080513742d98b6f4f4fe2f9ad290c9aea4cb467248f2ac189ecd91d09 1222 ui/Contents-udeb-armhf
+ 8f926085211eee1ef547698a9e00ae91a2e5e10a33ed69ebed857a04eedc42ca 205 ui/Contents-udeb-armhf.gz
+ cf13e85fc3cdf7bc0182ba23034b735b2544edbc0074dcbe617974164ae3be9f 65 staging/Contents-udeb-armhf
+ 44818733e04c03289b19184fc4f4d7cd61e9496fd94bc254744cd5c7d10c2ab6 36 staging/Contents-udeb-armhf.gz
+ cf13e85fc3cdf7bc0182ba23034b735b2544edbc0074dcbe617974164ae3be9f 65 untested/Contents-udeb-armhf
+ 44818733e04c03289b19184fc4f4d7cd61e9496fd94bc254744cd5c7d10c2ab6 36 untested/Contents-udeb-armhf.gz
+ 2ba616ebe955902335f8792e2173a4d340c94d18c953479ced1d3a7a867a6964 9179 uContents-armhf
+ 0e3fb03b40cd833a425361170591e86a827a74ce27759d3513dc0ea98d59b135 1014 uContents-armhf.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJW6TrpAAoJEIKxKZJ/ozA+AcoH/jiAiPJkqWZ8XDPMLlUsW9ml
+VU2BDg44dAbixn6fkz+aTy77gydoUa1Ydo1Y18oqBJCtTYPvZ6CphmWaEf5Dz2EO
+I+gN6x+BP6MynP7bwjtKTl+ThiqmNK3q4Z/LZkkc7qIDrRwdXwQVYFU+lV2GK4YP
+VF6Co0iy64AB4bxVZ5NwapCaZeeiCzw4MnKxbj/aj0D8pvGLg0+ki6p2MwN9Wlh3
+nNp7tRenF/Geo957qxojW2RgxPTJmWkqAMgNbRoYsOoM+I6NZ8HbVgZSDvKvLVwi
+HvPMREaCVfG8LRa8IeJob8K89TRVcstPyW2bJJcmSGtMYXcO4X8BejcgPFPMLCU=
+=JJyQ
+-----END PGP SIGNATURE-----

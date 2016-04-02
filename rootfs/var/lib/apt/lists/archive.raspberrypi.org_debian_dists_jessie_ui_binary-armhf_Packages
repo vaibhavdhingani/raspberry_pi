@@ -1,0 +1,679 @@
+Package: alacarte
+Version: 3.11.91-2+rpi1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1179
+Depends: python:any (>= 2.6.6-7~), gnome-menus (>= 3.5.3), python-gi (>= 3.0), gir1.2-gtk-3.0, gir1.2-gmenu-3.0 (>= 3.5.3), gir1.2-glib-2.0, gir1.2-gdkpixbuf-2.0
+Priority: optional
+Section: utils
+Filename: pool/ui/a/alacarte/alacarte_3.11.91-2+rpi1_all.deb
+Size: 110556
+SHA256: 076f3f46f7f05e1c90eb321ef4a2f5a2abcd3c6dac2f8a62a6989e62e2b90a7e
+SHA1: 701598ff9aa1a0296debb63e6efdda96fb30c512
+MD5sum: 33811d53f6bf248ae4ce0ec695fe15b2
+Description: easy GNOME menu editing tool
+ Alacarte is an easy-to-use menu editor for GNOME that can add
+ and edit new entries and menus. It works with the freedesktop.org
+ menu specification and should work with any desktop environment
+ that uses the spec.
+
+Package: dhcpcd5
+Version: 6.7.1-1+rpi3
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 334
+Depends: libc6 (>= 2.17)
+Recommends: openresolv | resolvconf
+Suggests: dhcpcd-gtk
+Conflicts: dhcpcd (<< 3.2.3-6), dhcpcd-sv
+Provides: dhcp-client
+Homepage: http://roy.marples.name/projects/dhcpcd
+Priority: optional
+Section: net
+Filename: pool/ui/d/dhcpcd5/dhcpcd5_6.7.1-1+rpi3_armhf.deb
+Size: 119156
+SHA256: c3266a20555000939d87832ef40eb1d8e86a7eb2698fbb3062a53432003a8aa5
+SHA1: d2de7656d748f7f7a840f9a0d81929c065056ebd
+MD5sum: aea6936163c9cf3b684eb19a88ae3ce9
+Description: DHCPv4, IPv6RA and DHCPv6 client with IPv4LL support
+ dhcpcd is a one stop network management daemon which includes
+  * RFC compliant DHCPv4 and DHCPv6 clients
+  * DHCPv6 Prefix Delegation support
+  * IPv4LL (aka ZeroConf) support
+  * ARP address conflict resolution
+  * Link carrier detection
+  * Wireless SSID profiles
+  * ARP ping profiles
+
+Package: fonts-droid
+Source: fonts-android
+Version: 1:4.4.4r2-6+rpi1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 15003
+Pre-Depends: dpkg (>= 1.15.7.2)
+Breaks: ttf-droid (<< 1:4.2~r1-1~)
+Replaces: ttf-droid (<< 1:4.2~r1-1~)
+Multi-Arch: foreign
+Homepage: https://android.googlesource.com/platform/frameworks/base/
+Priority: optional
+Section: fonts
+Filename: pool/ui/f/fonts-android/fonts-droid_4.4.4r2-6+rpi1_all.deb
+Size: 3727714
+SHA256: 84e3029190e64087993c61533fca3594ac2e8f2a2c9e23abbfb285a7569e58bd
+SHA1: b411c9b866ce524dcb1cb452d5895126d68364da
+MD5sum: 37e7295f641031973020024a6cbd72f3
+Description: handheld device font with extensive style and language support
+ The Droid family of fonts consists of Droid Sans (Regular and Bold),
+ Droid Sans Mono (Regular) and Droid Serif (Regular, Bold, Italic and
+ BoldItalic).
+ .
+ Each contains extensive character set coverage including
+ Western Europe, Eastern/Central Europe, Baltic, Cyrillic, Greek and
+ Turkish support. The Droid Sans regular font also includes support for
+ Arabic, Simplified and Traditional Chinese, Hebrew, Japanese, Korean and
+ Thai.
+ .
+ Droid was designed by Ascender's Steve Matteson and hinted to provide
+ optimal quality for screen text.
+
+Package: fonts-roboto
+Source: fonts-android
+Version: 1:4.4.4r2-6+rpi1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 1705
+Pre-Depends: dpkg (>= 1.15.6~)
+Multi-Arch: foreign
+Homepage: https://android.googlesource.com/platform/frameworks/base/
+Priority: optional
+Section: fonts
+Filename: pool/ui/f/fonts-android/fonts-roboto_4.4.4r2-6+rpi1_all.deb
+Size: 505352
+SHA256: 88b50fd936091601023b48d6bf22890571a4ef8975c195e141f8e7025b28b9c5
+SHA1: 99b5c8442cb4fc7c2c46800e4a08fa0fe81361b5
+MD5sum: abf46383ac8bba373d793b1b271b883f
+Description: sans-serif font family released with Android Ice Cream Sandwich
+ This package contains fonts released with Android Ice Cream Sandwich OS.
+ Google describes the font as "modern yet approachable and emotional". This
+ family includes regular and oblique styles of Thin, Light, Regular, Medium,
+ Bold, Black, and Condensed widths.
+
+Package: gir1.2-pango-1.0
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 288
+Depends: gir1.2-freedesktop, gir1.2-glib-2.0, libgirepository-1.0-1 (>= 1.41.4-1), libpango-1.0-0 (>= 1.36.0), libpangocairo-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.14.0), libpangoxft-1.0-0 (>= 1.14.0)
+Conflicts: gir1.0-pango-1.0
+Replaces: gir1.0-gtk-2.0 (<< 2.22), gir1.0-pango-1.0, gobject-introspection-repository
+Multi-Arch: same
+Priority: optional
+Section: introspection
+Filename: pool/ui/p/pango1.0/gir1.2-pango-1.0_1.36.8-3+rpi1_armhf.deb
+Size: 200642
+SHA256: 4421667d50f0b67d2d07b31250d26019c0808a2b845357c9ff14f1a4086c0519
+SHA1: f7332258e61d4cd8e11dcf36ccceb8c4d435e13c
+MD5sum: 851571856fbe769ab1c0585f21f5fcb9
+Description: Layout and rendering of internationalized text - gir bindings
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: gtk2-engines-clearlookspix
+Version: 1:2.20.2-3+rpi1
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 367
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.19.7-2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0)
+Breaks: gnome-themes-extras (<< 2)
+Multi-Arch: same
+Priority: optional
+Section: gnome
+Filename: pool/ui/g/gtk2-engines-clearlookspix/gtk2-engines-clearlookspix_2.20.2-3+rpi1_armhf.deb
+Size: 242880
+SHA256: 2f4dc59f5bbda51273bc768f42c7bd37156c47ac64e65efb46aea2c1918ae164
+SHA1: 28c8596fad2e60ab145c9e7ac1e01677150bd944
+MD5sum: 5d0f1e878da0b9570148c8deb680afb8
+Description: clearlookspix theme for GTK+ 2.x
+ GTK+ is a multi-platform toolkit for creating graphical user
+ interfaces. Offering a complete set of widgets, GTK+ is suitable
+ for projects ranging from small one-off tools to complete application
+ suites.
+ .
+ This package contains the clearlookspix theme engine.
+
+Package: libpango-1.0-0
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 492
+Pre-Depends: multiarch-support
+Depends: fontconfig (>= 2.1.91), libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libthai0 (>= 0.1.12)
+Breaks: libpango1.0-0 (<< 1.32.5-2), plymouth (<< 0.8.3-19)
+Replaces: libpango1.0-0 (<< 1.32.5-2)
+Provides: pango1.0-multiarch-modver-1.8.0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/ui/p/pango1.0/libpango-1.0-0_1.36.8-3+rpi1_armhf.deb
+Size: 274198
+SHA256: 984b4ecbb32c2ee48678e2339f0a3b1da2f624f262f8ba2947ae4eae631bb840
+SHA1: c48867f8eeb6aa38f04a8c173c1d6f24e2f63017
+MD5sum: 5f60cb4e0a2ae43437efb23e39710c56
+Description: Layout and rendering of internationalized text
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the shared libraries.
+
+Package: libpango1.0-0
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 205
+Depends: libpango-1.0-0 (= 1.36.8-3+rpi1), libpangocairo-1.0-0 (= 1.36.8-3+rpi1), libpangoft2-1.0-0 (= 1.36.8-3+rpi1), libpangox-1.0-0 (>= 0.0.2-2~), libpangoxft-1.0-0 (= 1.36.8-3+rpi1)
+Provides: pango1.0-multiarch-modver-1.8.0
+Multi-Arch: same
+Priority: extra
+Section: oldlibs
+Filename: pool/ui/p/pango1.0/libpango1.0-0_1.36.8-3+rpi1_armhf.deb
+Size: 183194
+SHA256: ad48bc1d96f4dd4d7ea6ac993c49ad0a4cc19f910448a2b6b5efcfa9148c9830
+SHA1: 3291f648e8a7e92617f3b17bbfee9b67df7962ee
+MD5sum: c9e893c5c4a375b97ba413fd635243e3
+Description: Layout and rendering of internationalized text
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This is a transitional package.
+
+Package: libpango1.0-0-dbg
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1802
+Depends: libpango-1.0-0 (= 1.36.8-3+rpi1) | libpangocairo-1.0-0 (= 1.36.8-3+rpi1) | libpangoft2-1.0-0 (= 1.36.8-3+rpi1) | libpangoxft-1.0-0 (= 1.36.8-3+rpi1)
+Priority: extra
+Section: debug
+Filename: pool/ui/p/pango1.0/libpango1.0-0-dbg_1.36.8-3+rpi1_armhf.deb
+Size: 659280
+SHA256: 8e001e5eecf309bb93350c42178de8af7d1233d29d29db35c9c905caf34e084a
+SHA1: 0129f3764ea13d289868800bef23c9c42bcf05c6
+MD5sum: 5281db4d443f2e1266cba0cefd36add5
+Description: Pango library and debugging symbols
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the debugging symbols. Most people will not need this
+ package.
+
+Package: libpango1.0-dev
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1763
+Depends: gir1.2-pango-1.0 (= 1.36.8-3+rpi1), libcairo2-dev (>= 1.12.10), libfontconfig1-dev (>= 2.10.91), libfreetype6-dev, libglib2.0-dev (>= 2.34.0), libharfbuzz-dev (>= 0.9.9), libpango-1.0-0 (= 1.36.8-3+rpi1), libpangocairo-1.0-0 (= 1.36.8-3+rpi1), libpangoft2-1.0-0 (= 1.36.8-3+rpi1), libpangoxft-1.0-0 (= 1.36.8-3+rpi1), libx11-dev, libxft-dev, libxrender-dev, pkg-config, libc6 (>= 2.7), libcairo2 (>= 1.12.10), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.34.0), libx11-6, libxft2 (>> 2.1.1), libxrender1
+Recommends: debhelper
+Suggests: imagemagick, libpango1.0-doc
+Replaces: gir-repository-dev, gobject-introspection-repository
+Priority: optional
+Section: libdevel
+Filename: pool/ui/p/pango1.0/libpango1.0-dev_1.36.8-3+rpi1_armhf.deb
+Size: 440330
+SHA256: 699bd0289135ef86aae8eaf8e78ed381c56210ac3ab70c2755202943d157640a
+SHA1: 485d8566ff109bccc45c705d80fc661b732a51ce
+MD5sum: 9dd4174d513df6e1f439ea31438d7626
+Description: Development files for the Pango
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the header files and some files needed for development
+ with Pango.
+
+Package: libpango1.0-doc
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 2448
+Depends: lynx | www-browser
+Recommends: libglib2.0-doc
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/ui/p/pango1.0/libpango1.0-doc_1.36.8-3+rpi1_all.deb
+Size: 370284
+SHA256: bc102f4a9c546ce0b1c619820e36dbe3c988aca095a00743b747df1b146c6b5e
+SHA1: 48e6940ea44f548cc466d175963ff4f0930960cd
+MD5sum: fc517cfefc5529e58ca5ab635d7ff077
+Description: Documentation files for the Pango
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the HTML documentation for the Pango in
+ /usr/share/doc/libpango1.0-doc/ .
+
+Package: libpangocairo-1.0-0
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 253
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.12.10), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.37.3), libpango-1.0-0 (>= 1.32.4), libpangoft2-1.0-0 (>= 1.28.1)
+Breaks: libpango1.0-0 (<< 1.32.5-2)
+Replaces: libpango1.0-0 (<< 1.32.5-2)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/ui/p/pango1.0/libpangocairo-1.0-0_1.36.8-3+rpi1_armhf.deb
+Size: 197344
+SHA256: d73506e3c11e17c97c78378e3755cc4ca1f747a221840b06f6f976ef860a5425
+SHA1: 5423059e1e79ced7bf76d48f6e4e91711d42210b
+MD5sum: 074d711d7ac6877227819872c1d5026d
+Description: Layout and rendering of internationalized text
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the shared libraries.
+
+Package: libpangoft2-1.0-0
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 284
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.37.3), libharfbuzz0b (>= 0.9.9), libpango-1.0-0 (>= 1.36.0)
+Breaks: libpango1.0-0 (<< 1.32.5-2)
+Replaces: libpango1.0-0 (<< 1.32.5-2)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/ui/p/pango1.0/libpangoft2-1.0-0_1.36.8-3+rpi1_armhf.deb
+Size: 207612
+SHA256: d587a778eeb243364c3e7f10ded7158b75051aad6d14811b14c571d416699570
+SHA1: 5371f5db38e863acce9316125bb05b8bd5cbd1b2
+MD5sum: 43bd726ed8f3f958bcc090586f9d6d13
+Description: Layout and rendering of internationalized text
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the shared libraries.
+
+Package: libpangoxft-1.0-0
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 240
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.37.3), libpango-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6, libxft2 (>> 2.1.1), libxrender1
+Breaks: libpango1.0-0 (<< 1.32.5-2)
+Replaces: libpango1.0-0 (<< 1.32.5-2)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/ui/p/pango1.0/libpangoxft-1.0-0_1.36.8-3+rpi1_armhf.deb
+Size: 192826
+SHA256: bd551efd4c551436edbd8fd4f395869ecbb4b2bc1b62521ed3990a4866e21edb
+SHA1: 3bdeca6293d1764153bfdee2892838b61c4b16cd
+MD5sum: 9b3a70955f4406d0540f1f1b4a1dc79f
+Description: Layout and rendering of internationalized text
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the shared libraries.
+
+Package: lxinput
+Version: 0.3.4-1+rpi2
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Installed-Size: 783
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.18.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6
+Suggests: lxsession
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxinput/lxinput_0.3.4-1+rpi2_armhf.deb
+Size: 57046
+SHA256: 69010564043eb4c31b79fa59d73a209acce00110c0efe3dec9e53e552bcf368e
+SHA1: 716901a549371542b5b12967b434ce5123bbf63f
+MD5sum: 9cfaa11d89bd5493ad5f323e5e01c47a
+Description: LXDE keyboard and mouse configuration
+ LXInput is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It configures keyboard and mouse settings:
+ .
+  * Delay and Interval for character repeat
+  * Enable/Disable beeps of keyboard input error
+  * Swap left and right mouse buttons
+  * Mouse acceleration and sensitivity
+
+Package: lxinput-dbg
+Source: lxinput
+Version: 0.3.4-1+rpi2
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Installed-Size: 67
+Depends: lxinput (= 0.3.4-1+rpi2)
+Homepage: http://www.lxde.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxinput/lxinput-dbg_0.3.4-1+rpi2_armhf.deb
+Size: 20434
+SHA256: 8c1b1daebe601899899efcefe5acdad7c77abc6214c5b5049564497ef9137b3a
+SHA1: 8912c77ccdb3632749f7ce93b8cf926dbf48042b
+MD5sum: c74a939bfc667ebeab27717ac10f78c5
+Description: LXDE keyboard and mouse configuration (debug)
+ LXInput is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+
+Package: lxpanel
+Version: 0.7.2-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Installed-Size: 708
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base0.10-0 (>= 0.10.2), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.24.0), libiw30 (>= 30~pre1), libmenu-cache3 (>= 0.5.0), libpango-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.0-3), libx11-6, libxml2 (>= 2.7.4), lxmenu-data, lxpanel-data (= 0.7.2-1+rpi3), libfm-modules, gstreamer0.10-alsa
+Recommends: xkb-data
+Suggests: lxsession | menu, iceweasel | www-browser
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxpanel/lxpanel_0.7.2-1+rpi3_armhf.deb
+Size: 191868
+SHA256: 39bffa876b282659010cf3239858d612a4f4cd34cdec11e49c741d28e269c9e4
+SHA1: fe5e6dd0c986de224f35b6d2da8c92f2ad33b85e
+MD5sum: f373c7f4892b8cbc9dd7588c2e61cacf
+Description: LXDE panel
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ It is derived from fbpanel and includes the following features:
+ .
+  * User-friendly application menu automatically generated from .desktop
+    files on the system
+  * Launcher bar (small icons clicked to launch apps)
+  * Task bar supporting ICCCM/EWMH `urgency' hint (Pidgin IM windows
+    can flash on new incoming messages)
+  * Run dialog (type a command to run, without opening a terminal)
+  * Net status icon plug-in (optional).
+  * Volume control plug-in (optional).
+  * Notification area (system tray).
+  * Digital clock.
+  * Keyboard LEDs plug-in (display caps/num locks).
+  * lxpanelctl: control lxpanel from other programs.
+    For example, "lxpanelctl run" will show the Run dialog in lxpanel,
+    and "lxpanelctl menu" will show the application menu. This is
+    useful in combination with window manager key bindings.
+
+Package: lxpanel-data
+Source: lxpanel
+Version: 0.7.2-1+rpi3
+Architecture: all
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Installed-Size: 2952
+Breaks: lxpanel (<< 0.7.0)
+Replaces: lxpanel (<< 0.7.0)
+Homepage: http://www.lxde.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/l/lxpanel/lxpanel-data_0.7.2-1+rpi3_all.deb
+Size: 1064854
+SHA256: a6b7dbcfd248f96403887a14f778557d1d959a3e63f01d1bd095827fc16895da
+SHA1: ea447a166c7776eed1b3fac911bbccdcda39a36a
+MD5sum: 6c7ce64f9005e114b7e8e4f2441850ce
+Description: LXDE panel (data files)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the data required for panel.
+
+Package: lxpanel-dbg
+Source: lxpanel
+Version: 0.7.2-1+rpi3
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Installed-Size: 1174
+Depends: lxpanel (= 0.7.2-1+rpi3)
+Homepage: http://www.lxde.org/
+Priority: extra
+Section: debug
+Filename: pool/ui/l/lxpanel/lxpanel-dbg_0.7.2-1+rpi3_armhf.deb
+Size: 914790
+SHA256: fceff5f054381139d719d285ad8dc48424297370ae04cdbd7b028e08400d53a7
+SHA1: 09781f597443b85fdd5625cf597716230d5bd6e3
+MD5sum: 9a774ffc8c8066bda23338c842fc4c30
+Description: LXDE panel (debug)
+ LXPanel is a GUI application for the Lightweight X11 Desktop Environment
+ (LXDE).
+ .
+ This package contains the debugging symbols.
+
+Package: pango1.0-tests
+Source: pango1.0
+Version: 1.36.8-3+rpi1
+Architecture: armhf
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 846
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.12.10), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.37.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.18.0), libstdc++6 (>= 4.1.1), fonts-cantarell
+Priority: optional
+Section: libs
+Filename: pool/ui/p/pango1.0/pango1.0-tests_1.36.8-3+rpi1_armhf.deb
+Size: 257858
+SHA256: 19d3a756bd3ea3afb565160e12e034b96ab969469c2e3d61904bd91c863f2083
+SHA1: c6ca93367cabb7151aa7df92f462bc5fe2b00a97
+MD5sum: 49cea6542b439c1c028b27da7a293e0e
+Description: Layout and rendering of internationalized text - installed tests
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains test programs, designed to be run as part of a
+ regression testsuite.
+
+Package: pcmanfm
+Version: 1.2.3-1.1+rpi2
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Installed-Size: 1751
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfm-gtk4 (>= 1.2.0), libfm4 (>= 1.2.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6
+Recommends: gvfs-backends, gvfs-fuse, policykit-1-gnome | mate-polkit | lxpolkit (<< 0.4.9), lxde-icon-theme | gnome-icon-theme | oxygen-icon-theme | tango-icon-theme
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: optional
+Section: utils
+Filename: pool/ui/p/pcmanfm/pcmanfm_1.2.3-1.1+rpi2_armhf.deb
+Size: 251300
+SHA256: 5fdd96d22bdce691e0b8d3c8acfd3533d80c445297cfed39c8e4cbb08b761d70
+SHA1: eacb24daf234f692872c384afbd1679cbb2bdc9a
+MD5sum: 87235c8e432d158b4b3e0f63b185f8a7
+Description: extremely fast and lightweight file manager
+ PCMan File Manager is a GTK+ based file manager, featuring:
+ .
+  * Extremly fast and lightweight
+  * Can be started in one second on normal machine
+  * Tabbed browsing (similar to Firefox)
+  * Drag & Drop support
+  * Files can be dragged among tabs
+  * Load large directories in reasonable time
+  * File association support (Default application)
+  * Basic thumbnail support
+  * Bookmarks support
+  * Handles non-UTF-8 encoded filenames correctly
+  * Provide icon view and detailed list view
+  * Standard compliant (Follows FreeDesktop.org)
+  * Clean and user-friendly interface (GTK+ 2)
+  * Support GVFS for auto-mount handling on removable devices
+
+Package: pcmanfm-dbg
+Source: pcmanfm
+Version: 1.2.3-1.1+rpi2
+Architecture: armhf
+Maintainer: Debian LXDE Maintainers <lxde-debian@lists.lxde.org>
+Installed-Size: 376
+Pre-Depends: dpkg (>= 1.17.13)
+Depends: pcmanfm (= 1.2.3-1.1+rpi2)
+Homepage: http://pcmanfm.sourceforge.net/
+Priority: extra
+Section: debug
+Filename: pool/ui/p/pcmanfm/pcmanfm-dbg_1.2.3-1.1+rpi2_armhf.deb
+Size: 295624
+SHA256: 6b35b5426c6c664167933e2b3484d8c56b0762485bc453899ddc898d02023e98
+SHA1: 3afc75c1cae5a3290933f5a8f1b95a8b9896a49f
+MD5sum: 18b38c737ee0e3e2b7bb752b816a0292
+Description: extremely fast and lightweight file manager (debug)
+ PCMan File Manager is a GTK+ based file manager. It is a primary file
+ manager for the LXDE but can be used in any other desktop environment.
+ .
+ This package contains the debugging symbols.
+
+Package: pimixer
+Version: 0.20150519~144516-2
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 975
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.35.9), libgstreamer-plugins-base0.10-0 (>= 0.10.14), libgstreamer0.10-0 (>= 0.10.0), libgtk2.0-0 (>= 2.14.0), libxfce4ui-1-0 (>= 4.9.0), libxfce4util6 (>= 4.9.0), libxfconf-0-2 (>= 4.6.0), gstreamer0.10-alsa | gstreamer0.10-audiosink, gstreamer0.10-plugins-base
+Breaks: xfce4-mixer (= 4.8.0-3+rpi2)
+Replaces: xfce4-mixer (= 4.8.0-3+rpi2), xfce4-mixer-alsa, xfce4-mixer-oss
+Homepage: http://raspberrypi.org
+Priority: optional
+Section: utils
+Filename: pool/ui/p/pimixer/pimixer_0.20150519~144516-2_armhf.deb
+Size: 187368
+SHA256: 02640e1d57de31d95a61b24dc86cdd4e9ddf81390808b9ccbbe13e9638af65e6
+SHA1: 30138731cb19197b2e1fc14c131bd37117d53d7c
+MD5sum: e69941db3b168b502c31168e8ffc0c60
+Description: Fork of Xfce mixer application for the Raspberry Pi
+ This is the frontend for mixer settings delivered together
+ with the Raspberry Pi desktop environment.
+ .
+ It uses GStreamer as a backend.
+
+Package: pipanel
+Version: 20150806~164047
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 111
+Depends: libc6 (>= 2.7), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.12.0), libxml2 (>= 2.7.4), openbox, lxsession
+Homepage: https://www.raspberrypi.org/
+Priority: optional
+Section: x11
+Filename: pool/ui/p/pipanel/pipanel_20150806~164047_armhf.deb
+Size: 12712
+SHA256: cceee1051755f89289ea2143aed8cc424479b8d54b02a11b05c557ff679a13b6
+SHA1: 358669a5af78da2e03eecaafea239c9c2f520951
+MD5sum: 239db2489884bbe1ba7ef75f5fbde66e
+Description: Settings panel for Raspberry Pi desktop appearance
+ pipanel is an application which allows the configuration of the LX Desktop
+ user interface from one convenient dialog.
+
